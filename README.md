@@ -84,14 +84,30 @@ Github will trigger the Cloud functions trigger once any issues or pull request 
  Run your app using `react-native run-ios` or `react-native run-android`. Click on the bell icon to register for push notifications.
 
 The iOS app looks like this,
- <p align="center">
+ <p align="left">
   <img src="./images/iOS/pic.png" height=300 width=160>
   <img src="./images/iOS/pic2.png" height=300 width=160>
 </p>
 
 
 The Android app looks like this,
- <p align="center">
+ <p align="left">
   <img src="./images/Android/pic1.png" height=300 width=160>
   <img src="./images/Android/pic2.png" height=300 width=160>
+</p>
+
+## Testing app
+To test the app , create an issue or Pull request in any repository of your github organization.
+
+The notifications will look like this,
+<p align="left">
+  <img src="./images/iOS/picissue.png" height=300 width=160>
+  <img src="./images/iOS/picissue1.png" height=300 width=160>
+  <img src="./images/Android/picissue.png" height=300 width=160>
+  <img src="./images/Android/picissue2.png" height=300 width=160>
+  <br/>
+  <img src="./images/iOS/picpr.png" height=300 width=160>
+  <img src="./images/iOS/picpr2.png" height=300 width=160>
+  <img src="./images/Android/picpr.png" height=300 width=160>
+  <img src="./images/Android/picpr2.png" height=300 width=160>
 </p>
