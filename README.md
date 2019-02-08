@@ -24,9 +24,17 @@ Create a nodeJs action with code given in `getReposAction.js`.
 Add the github organization name,
 
 ```
-let orgName = "Gypsyan";
+    let orgName = "Gypsyan";
 ```
 
 #### Create Action to listen for Github webhooks. 
 
  Create a nodeJs action with code given in `ReactNativeAction.js`. Make sure you have updated the  
+
+ Add the `apikey`, `appId` and `apiHost` for the push service.
+
+ ```
+    var apikey = "Push service APIKey";
+    var appId = "Push service AppGUID";
+    var apiHost = " Region" // Eg, for US South - imfpush.ng.bluemix.net
+ ```
