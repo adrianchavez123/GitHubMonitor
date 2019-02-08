@@ -111,3 +111,34 @@ The notifications will look like this,
   <img src="./images/Android/picpr.png" height=300 width=160>
   <img src="./images/Android/picpr2.png" height=300 width=160>
 </p>
+
+
+### Learning More
+
+* Visit the **[IBM Cloud Developers Community](https://developer.ibm.com/bluemix/)**.
+
+* [Getting started with IBM MobileFirst Platform for iOS](https://cloud.ibm.com/docs/services/mobilepush/index.html#gettingstartedtemplate)
+
+### Connect with IBM Cloud
+
+[Twitter](https://twitter.com/ibmbluemix) |
+[YouTube](https://www.youtube.com/playlist?list=PLzpeuWUENMK2d3L5qCITo2GQEt-7r0oqm) |
+[Blog](https://developer.ibm.com/bluemix/blog/) |
+[Facebook](https://www.facebook.com/ibmbluemix) |
+[Meetup](http://www.meetup.com/bluemix/)
+
+
+=======================
+Copyright 2016 IBM Corp.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
