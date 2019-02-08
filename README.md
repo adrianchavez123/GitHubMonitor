@@ -41,7 +41,7 @@ Add the github organization name,
     var apiHost = " Region" // Eg, for US South - imfpush.ng.bluemix.net
  ```
 
-#### Create a Cloud Fucntions trigger.
+#### Create a Cloud Functions trigger.
 
   Create a trigger and add the `ReactNativeAction` in the actions field.
 
@@ -49,7 +49,7 @@ Add the github organization name,
   <img src="./images/OW/trigger.png">
 </p>
 
-#### Add the Github webhook. 
+#### Add the Github Webhook
 
  Open the github repository settings. Then add a webhook with Cloud function trigger. Select `issues` and `Pull Request`.
 
@@ -58,7 +58,7 @@ Add the github organization name,
   <img src="./images/OW/w1.png">
 </p>
 
-Github will trigger the Cloud functions trigger once any issues or pullrequest event happens in the org repos.
+Github will trigger the Cloud functions trigger once any issues or pull request event happens in the org repos.
 
 ### Push Notifications 
 
@@ -77,3 +77,4 @@ Github will trigger the Cloud functions trigger once any issues or pullrequest e
 #### Configure the iOS App and Android App
 
  Follow this document to [configure the iOS app](https://github.com/ibm-bluemix-mobile-services/bms-push-react-native#installation).
+
