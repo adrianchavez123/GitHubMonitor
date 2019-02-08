@@ -17,6 +17,8 @@ This sample is built on React Native. It is a simple application which shows all
 
 Let's start by creating the Cloud Functions Actions and triggers. 
 
+### Cloud Functions
+
 #### Create Action to get all repository . 
 
 Create a nodeJs action with code given in `getReposAction.js`.
@@ -38,3 +40,38 @@ Add the github organization name,
     var appId = "Push service AppGUID";
     var apiHost = " Region" // Eg, for US South - imfpush.ng.bluemix.net
  ```
+
+#### Create a Cloud Fucntions trigger.
+
+  Create a trigger and add the `ReactNativeAction` in the actions field.
+
+<p align="center">
+  <img src="./images/OW/trigger.png">
+</p>
+
+#### Add the Github webhook. 
+
+ Open the github repository settings. Then add a webhook with Cloud function trigger. Select `issues` and `Pull Request`.
+
+ <p align="center">
+  <img src="./images/OW/w.png">
+  <img src="./images/OW/w1.png">
+</p>
+
+Github will trigger the Cloud functions trigger once any issues or pullrequest event happens in the org repos.
+
+### Push Notifications 
+
+#### Configure the push service with Android and iOS details.
+
+ Follow the setup documentation for configuring the [push notification service](https://console.bluemix.net/docs/services/mobilepush/push_step_2.html#push_step_2).
+
+#### Configure the client app.
+
+ Go to the `App.js` and add push credentials and [Cloud function credentials](https://console.bluemix.net/openwhisk/learn/api-key). 
+
+ <p align="center">
+  <img src="./images/Code/config.png">
+</p>
+
+#### 
