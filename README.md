@@ -74,4 +74,6 @@ Github will trigger the Cloud functions trigger once any issues or pullrequest e
   <img src="./images/Code/config.png">
 </p>
 
-#### 
+#### Configure the iOS App and Android App
+
+ Follow this document to [configure the iOS app](https://github.com/ibm-bluemix-mobile-services/bms-push-react-native#installation).
