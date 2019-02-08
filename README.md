@@ -19,5 +19,14 @@ Let's start by creating the Cloud Functions Actions and triggers.
 
 #### Create Action to get all repository . 
 
-Create a nodeJs action with code given in `getReposAction.js`
+Create a nodeJs action with code given in `getReposAction.js`.
 
+Add the github organization name,
+
+```
+let orgName = "Gypsyan";
+```
+
+#### Create Action to listen for Github webhooks. 
+
+ Create a nodeJs action with code given in `ReactNativeAction.js`. Make sure you have updated the  
