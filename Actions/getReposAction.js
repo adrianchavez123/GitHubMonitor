@@ -14,15 +14,16 @@ const { promisify } = require('util');
 const request = promisify(require('request'));
 async function main(params) {
     
-    let repoName = "Gypsyan";
-    let apiHost = `https://api.github.com/orgs/${repoName}/repos`;
+    let orgName = "Gypsyan";
+
+    let apiHost = `https://api.github.com/orgs/${orgName}/repos`;
 
     let sendMessageResult;
     try {
         sendMessageResult = await (request({
         method: 'get',
         headers:{
-            'user-agent': repoName
+            'user-agent': orgName
         },
         uri: apiHost
         }));
