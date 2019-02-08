@@ -76,5 +76,15 @@ Github will trigger the Cloud functions trigger once any issues or pull request 
 
 #### Configure the iOS App and Android App
 
- Follow this document to [configure the iOS app](https://github.com/ibm-bluemix-mobile-services/bms-push-react-native#installation).
+ Follow this document to [configure the iOS and Android app](https://github.com/ibm-bluemix-mobile-services/bms-push-react-native#installation).
 
+
+## Run the app
+
+ Run your app using `react-native run-ios` or `react-native run-android`. Click on the bell icon to register for push notifications.
+
+The iOS app looks like this,
+ <p align="center">
+  <img src="./images/iOS/pic.png" height=300 width=160>
+  <img src="./images/iOS/pic2.png" height=300 width=160>
+</p>
