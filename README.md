@@ -88,3 +88,10 @@ The iOS app looks like this,
   <img src="./images/iOS/pic.png" height=300 width=160>
   <img src="./images/iOS/pic2.png" height=300 width=160>
 </p>
+
+
+The Android app looks like this,
+ <p align="center">
+  <img src="./images/Android/pic1.png" height=300 width=160>
+  <img src="./images/Android/pic2.png" height=300 width=160>
+</p>
